@@ -1,0 +1,28 @@
+{
+      "data": [
+      {
+            "private":"0",
+            "allow_mails":"0",
+            "title":"Продам гараж",
+            "description": "хороший гараж",
+            "phone":"89132088539",
+            "author_id":"55680ddcb00b68200a821b56"
+      },
+      {
+            "private":"0",
+            "allow_mails":"0",
+            "title":"Продам кассеты",
+            "description": "хорошие кассеты",
+            "phone":"89132",
+            "author_id":"2"
+      },
+      {
+            "private":"0",
+            "allow_mails":"0",
+            "title":"Продам сотку",
+            "description": "хорошая сотка",
+            "phone":"8913208",
+            "author_id":"3"
+      }
+      ]
+}

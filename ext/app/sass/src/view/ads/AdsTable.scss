@@ -1,0 +1,12 @@
+
+.company { 
+    background-color: #FFFFCF; 
+
+}
+
+.x-grid-item-selected .company, .x-grid-item-selected.x-grid-item-over .company  {
+      background-color: #d6cfba !important; 
+}
+.x-grid-item-over .company {
+          background-color: #EFEFBC !important; 
+}

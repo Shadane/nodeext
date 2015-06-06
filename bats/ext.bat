@@ -1,0 +1,1 @@
+cd ../ext/app && sencha app watch

@@ -1,0 +1,1 @@
+cd ../nodeApi/ && node server

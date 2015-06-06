@@ -1,0 +1,253 @@
+[{
+            "_id": 11,
+            "category": "Автомобили с пробегом",
+            "parent_id": 1
+      }, {
+            "_id": 12,
+            "category": "Новые автомобили",
+            "parent_id": 1
+      }, {
+            "_id": 13,
+            "category": "Мотоциклы и мототехника",
+            "parent_id": 1
+      }, {
+            "_id": 14,
+            "category": "Грузовики и спецтехника",
+            "parent_id": 1
+      }, {
+            "_id": 15,
+            "category": "Водный транспорт",
+            "parent_id": 1
+      }, {
+            "_id": 16,
+            "category": "Запчасти и аксессуары",
+            "parent_id": 1
+      }, {
+            "_id": 21,
+            "category": "Квартиры",
+            "parent_id": 2
+      }, {
+            "_id": 22,
+            "category": "Комнаты",
+            "parent_id": 2
+      }, {
+            "_id": 23,
+            "category": "Дома, дачи, коттеджи",
+            "parent_id": 2
+      }, {
+            "_id": 24,
+            "category": "Земельные участки",
+            "parent_id": 2
+      }, {
+            "_id": 25,
+            "category": "Гаражи и машиноместа",
+            "parent_id": 2
+      }, {
+            "_id": 26,
+            "category": "Коммерческая недвижимость",
+            "parent_id": 2
+      }, {
+            "_id": 27,
+            "category": "Недвижимость за рубежом",
+            "parent_id": 2
+      }, {
+            "_id": 31,
+            "category": "Вакансии (поиск сотрудников)",
+            "parent_id": 3
+      }, {
+            "_id": 32,
+            "category": "Резюме (поиск работы)",
+            "parent_id": 3
+      }, {
+            "_id": 41,
+            "category": "Предложения услуг",
+            "parent_id": 4
+      }, {
+            "_id": 42,
+            "category": "Запросы на услуги",
+            "parent_id": 4
+      }, {
+            "_id": 51,
+            "category": "Одежда, обувь, аксессуары",
+            "parent_id": 5
+      }, {
+            "_id": 52,
+            "category": "Детская одежда и обувь",
+            "parent_id": 5
+      }, {
+            "_id": 53,
+            "category": "Товары для детей и игрушки",
+            "parent_id": 5
+      }, {
+            "_id": 54,
+            "category": "Часы и украшения",
+            "parent_id": 5
+      }, {
+            "_id": 55,
+            "category": "Красота и здоровье",
+            "parent_id": 5
+      }, {
+            "_id": 61,
+            "category": "Бытовая техника",
+            "parent_id": 6
+      }, {
+            "_id": 62,
+            "category": "Мебель и интерьер",
+            "parent_id": 6
+      }, {
+            "_id": 63,
+            "category": "Посуда и товары для кухни",
+            "parent_id": 6
+      }, {
+            "_id": 64,
+            "category": "Продукты питания",
+            "parent_id": 6
+      }, {
+            "_id": 65,
+            "category": "Ремонт и строительство",
+            "parent_id": 6
+      }, {
+            "_id": 66,
+            "category": "Растения",
+            "parent_id": 6
+      }, {
+            "_id": 71,
+            "category": "Аудио и видео",
+            "parent_id": 7
+      }, {
+            "_id": 72,
+            "category": "Игры, приставки и программы",
+            "parent_id": 7
+      }, {
+            "_id": 73,
+            "category": "Настольные компьютеры",
+            "parent_id": 7
+      }, {
+            "_id": 74,
+            "category": "Ноутбуки",
+            "parent_id": 7
+      }, {
+            "_id": 75,
+            "category": "Оргтехника и расходники",
+            "parent_id": 7
+      }, {
+            "_id": 76,
+            "category": "Планшеты и электронные книги",
+            "parent_id": 7
+      }, {
+            "_id": 77,
+            "category": "Телефоны",
+            "parent_id": 7
+      }, {
+            "_id": 78,
+            "category": "Товары для компьютера",
+            "parent_id": 7
+      }, {
+            "_id": 79,
+            "category": "Фототехника",
+            "parent_id": 7
+      }, {
+            "_id": 81,
+            "category": "Билеты и путешествия",
+            "parent_id": 8
+      }, {
+            "_id": 82,
+            "category": "Велосипеды",
+            "parent_id": 8
+      }, {
+            "_id": 83,
+            "category": "Книги и журналы",
+            "parent_id": 8
+      }, {
+            "_id": 84,
+            "category": "Коллекционирование",
+            "parent_id": 8
+      }, {
+            "_id": 85,
+            "category": "Музыкальные инструменты",
+            "parent_id": 8
+      }, {
+            "_id": 86,
+            "category": "Охота и рыбалка",
+            "parent_id": 8
+      }, {
+            "_id": 87,
+            "category": "Спорт и отдых",
+            "parent_id": 8
+      }, {
+            "_id": 88,
+            "category": "Знакомства",
+            "parent_id": 8
+      }, {
+            "_id": 91,
+            "category": "Собаки",
+            "parent_id": 9
+      }, {
+            "_id": 92,
+            "category": "Кошки",
+            "parent_id": 9
+      }, {
+            "_id": 93,
+            "category": "Птицы",
+            "parent_id": 9
+      }, {
+            "_id": 94,
+            "category": "Аквариум",
+            "parent_id": 9
+      }, {
+            "_id": 95,
+            "category": "Другие животные",
+            "parent_id": 9
+      }, {
+            "_id": "96",
+            "category": "Товары для животных",
+            "parent_id": 9
+      }, {
+            "_id": "a11",
+            "category": "Готовый бизнес",
+            "parent_id": "a1"
+      }, {
+            "_id": "a12",
+            "category": "Оборудование для бизнеса",
+            "parent_id": "a1"
+      }, {
+            "_id": 1,
+            "category": "Транспорт",
+            "parent_id": null
+      }, {
+            "_id": 2,
+            "category": "Недвижимость",
+            "parent_id": null
+      }, {
+            "_id": 3,
+            "category": "Работа",
+            "parent_id": null
+      }, {
+            "_id": 4,
+            "category": "Услуги",
+            "parent_id": null
+      }, {
+            "_id": 5,
+            "category": "Личные вещи",
+            "parent_id": null
+      }, {
+            "_id": 6,
+            "category": "Для дома и дачи",
+            "parent_id": null
+      }, {
+            "_id": 7,
+            "category": "Бытовая электроника",
+            "parent_id": null
+      }, {
+            "_id": 8,
+            "category": "Хобби и отдых",
+            "parent_id": null
+      }, {
+            "_id": 9,
+            "category": "Животные",
+            "parent_id": null
+      }, {
+            "_id": "a1",
+            "category": "Для бизнеса",
+            "parent_id": null
+      }]
