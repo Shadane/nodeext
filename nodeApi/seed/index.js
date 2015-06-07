@@ -73,7 +73,7 @@ module.exports = function(mongoose,models){
                   author_id: author3.id,
             });
             ad3.save();
-console.log('db purged and seeded');
+console.log('db purged and seeded. You can check up on your website by visiting /ext/app');
       }, 500);
 };
 

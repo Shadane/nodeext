@@ -10,7 +10,7 @@ Ext.define('MyApp.model.City',{
         ],
         proxy: {
               type: 'rest',
-              url: 'http://localhost:1337/api/cities'
+              url: '/api/cities'
         }
       
 });

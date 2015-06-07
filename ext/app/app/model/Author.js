@@ -24,7 +24,7 @@ Ext.define('MyApp.model.Author', {
     ],
     proxy: {
           type: 'myrest',
-          url: 'http://localhost:1337/api/authors',
+          url: '/api/authors',
           reader:{
                 type:'json',
                 rootProperty: 'authors'

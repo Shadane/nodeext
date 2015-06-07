@@ -25,7 +25,7 @@ Ext.define('MyApp.model.Ad', {
     ],
     proxy: {
           type: 'myrest',
-          url: 'http://localhost:1337/api/ads',
+          url: '/api/ads',
           reader:{
                 type:'json',
                 rootProperty: 'ads'

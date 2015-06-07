@@ -11,7 +11,7 @@ Ext.define('MyApp.model.Category',{
        
         proxy: {
               type: 'rest',
-              url: 'http://localhost:1337/api/cats'
+              url: '/api/cats'
               
         }
       
