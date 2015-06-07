@@ -20,11 +20,11 @@ app.use(cors());
 
 //загружаем наши модели
 var models = {
-    Author: require('./models/author')(mongoose),
-    Ad: require('./models/ad')(mongoose),
+    Author: require('./models/Author')(mongoose),
+    Ad: require('./models/Ad')(mongoose),
     
-    City: require('./models/city')(mongoose),
-    Category: require('./models/category')(mongoose)
+    City: require('./models/City')(mongoose),
+    Category: require('./models/Category')(mongoose)
 };
 
 
