@@ -36,7 +36,7 @@ exports.add = function(req, res){
       var author = new exports.model.Author(req.body);
       author.save(function(err, au) {
          if (!err) {
-            res.send({'ads':au,'success':true});
+            res.send({'ads':au,'success':true, message: 'Автор успешно добавлен'});
         } else {
             res.statusCode = 500;
             console.log('Internal error(%d): %s',res.statusCode,err.message);
