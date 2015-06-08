@@ -4,6 +4,7 @@ var express = require('express');
 //то, что загружается со стороны
 var cors = require('cors');
 var bodyParser = require('body-parser');
+var compress = require('compression');
 var mongoose = require('mongoose');
 
 //то, что загружается из моих файлов
@@ -12,7 +13,7 @@ var router = require('./router');
 
 //создаем приложение
 var app = express();
-
+app.use(compress());
 //подключаем бодипарсер и корс
 app.use(bodyParser.json()); 
 app.use(cors());

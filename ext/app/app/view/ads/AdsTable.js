@@ -53,7 +53,8 @@ Ext.define('MyApp.view.ads.AdsTable', {
                     */
                   width: 60,
                   text:'Цена',
-                  dataIndex: 'price'
+                  dataIndex: 'dollarPrice'
+
             },
             {
                    /* -------------------------------------

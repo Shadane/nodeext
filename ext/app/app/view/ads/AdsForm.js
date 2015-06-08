@@ -172,7 +172,8 @@ Ext.define('MyApp.view.ads.AdsForm', {
                               fieldLabel: 'Цена',
                               step: 1,
                               value: 0,
-                              minValue: 0
+                              minValue: 0,
+                              allowBlank: false
                         },
                         {
                                       /* ------------------------------------

@@ -21,7 +21,12 @@ Ext.define('MyApp.model.Ad', {
           {name:'category_id'}, 
           {name:'price'}, 
           {name:'author_id'},
-          {name:'phone'} 
+          {
+              name:'dollarPrice', 
+              calculate: function (data) {
+                      return '$'+data.price;
+              }
+          }
     ],
     proxy: {
           type: 'myrest',
