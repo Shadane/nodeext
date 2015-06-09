@@ -1,5 +1,9 @@
+@echo off
 cd /d %~dp0
 cd ./bats/
-start cmd /wait /k Call mongodb.bat
-start cmd /wait /k Call node.bat
+start /min cmd /k Call mongodb.bat
+choice /c yn /m "restore database mock data?"
+if %errorlevel% equ 1 start /wait cmd /k Call mongorestore.bat
+
+start cmd /k Call node.bat
 exit

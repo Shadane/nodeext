@@ -34,11 +34,8 @@ mongoose.connect(config.get('mongoose:uri'),function onMongooseError(err) {
 });
 
 
-//эту строку можно закомментировать если не нужны тестовые данные
-require('./seed')(mongoose,models);
-
 //подключаем наш ext проект
-app.use('/ext', express.static('../ext/build/production/MyApp/'));
+app.use('/ext/app', express.static('../ext/build/production/MyApp/'));
 
 //запускаем роутер
 router.init(app, models);

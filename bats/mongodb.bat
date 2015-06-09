@@ -1,1 +1,1 @@
-cd ../mongodb/ && mongod.exe --dbpath ./data
+cd ../mongodb/ && mongod.exe --dbpath ./data --nojournal
