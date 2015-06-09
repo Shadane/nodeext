@@ -33,5 +33,9 @@ exports.init = function(app, models)
     
     app.get('/api/cities/', misc.readCity);
     app.get('/api/cats/', misc.readCats);
+
+    app.get('/', function(req, res){
+        res.redirect('/ext/app');
+    })
 };
 
