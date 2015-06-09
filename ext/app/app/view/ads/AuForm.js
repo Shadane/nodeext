@@ -7,6 +7,9 @@
 Ext.define('MyApp.view.ads.AuForm', {
       extend: 'Ext.window.Window',
       xtype: 'myapp-auform',
+      requires:[
+          'Ext.form.*'
+      ],
       padding: 5,
       width: 500,
       controller: 'FormController',

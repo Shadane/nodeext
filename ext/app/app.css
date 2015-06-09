@@ -1,17 +1,17 @@
 .error {
-      background-color: #F8BEBE;
+      background-color: #F8BEBE !important;
 }
 .warning {
-      background-color: #dec174;
+      background-color: #dec174 !important;
 }
 .success {
-      background-color: #63cf7f;
+      background-color: #63cf7f !important;
 }
 .info {
-      background-color: #636ccf;
+      background-color: #636ccf !important;
 }
 .error, .warning, .success, .info{
-      color: white;
-     font-size: 1.3em;
+      color: white !important;
+     font-size: 1.3em !important;
 }
 

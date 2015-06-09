@@ -144,8 +144,8 @@
             "bootstrap": true
         },
         {
-              "path": "app.css",
-              "bootstrap": true
+              "path": "app.css"
+
         }
     ],
 

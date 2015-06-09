@@ -8,6 +8,9 @@
 Ext.define('MyApp.controller.ResponseCtrl', {
       extend: 'Ext.app.ViewController',
       alias: 'controller.responsectrl',
+      requires: [
+          'Ext.window.Toast'
+      ],
               /* -------------------------------------------------
                * init
                * -------------------------------------------------

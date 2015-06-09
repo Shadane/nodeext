@@ -7,6 +7,9 @@
 Ext.define('MyApp.view.ads.AdsForm', {
       extend: 'Ext.window.Window',
       xtype: 'myapp-adsform',
+      requires:[
+          'Ext.form.*'
+      ],
       padding: 5,
       width: 500,
       controller: 'FormController',
